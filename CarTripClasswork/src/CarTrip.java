@@ -1,14 +1,14 @@
-public class CarTrip1 {
+public class CarTrip {
 
 private double myGallonsUsed, myStartOdometer, myEndOdometer, myTime;
 	  
-	  public CarTrip1(){
+	  public CarTrip(){
 	    this.myStartOdometer = 1000.0;
 	    this.myEndOdometer = 2000.0;
 	    this.myTime = 10.5;
 	    this.myGallonsUsed = 3.0;
 	  }
-	  public CarTrip1(double so, double eo, double g, double t){
+	  public CarTrip(double so, double eo, double g, double t){
 	    this.myStartOdometer = so;
 	    this.myEndOdometer = eo;
 	    this.myTime = t;
